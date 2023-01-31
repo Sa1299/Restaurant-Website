@@ -278,7 +278,8 @@ footer{
 
 .center{
     text-align: center;
-}echo minify(file_get_contents($url));
+}
+echo minify(file_get_contents($url));
 //minify CSS
 //$url = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.css";
 //echo minify(file_get_contents($url));
